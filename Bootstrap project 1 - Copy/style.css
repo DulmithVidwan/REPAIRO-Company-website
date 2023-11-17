@@ -1,0 +1,288 @@
+*{
+    font-family:Open Sans ;
+}
+
+.section-header{
+    margin-top: 40px;
+}
+
+.section-header h2{
+    color: #08194a;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.section-header h2 span{
+    color: #e53f29;
+}
+
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-brand{
+    color: #08194a;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand span{
+    color: #e53f29;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background:#fff;
+}
+
+.carousel{
+    background-image: url(./car-repair/img/home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    margin-top: 25px;
+    color: #08194a;
+    font-weight:700;
+    text-align: left;
+}
+
+.carousel-caption h5 span{
+    color: #e53f29;
+}
+
+.carousel-caption p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #08194a;
+    text-align: left;
+}
+
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #08194a;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*-- about page--*/
+
+.about-area img{
+    width: 100% !important;
+}
+
+.about-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #08194a;
+}
+
+.about-text h1 span{
+    color: #e53f29;
+}
+
+.about-text a{
+    background: #08194a;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/*-- services--*/
+
+.single-services{
+    background: #08194a;
+    color: #fff;
+    padding: 30px 15px;
+}
+
+.single-services i{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.single-services h2{
+    font-family: montserrat;
+}
+
+
+/*---why us--*/
+
+.choose-image img{
+    width: 100%;
+}
+
+.single-box{
+    padding: 20px;
+}
+
+.single-box i{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #e53f29;
+}
+
+.single-box h2{
+    color: #08194a;
+    font-family: Bebas Neue;
+}
+
+
+/*---testimonial---*/
+
+.imgbox{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+}
+
+.imgbox img{
+    width: 100%;
+}
+
+.single-client{
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    padding: 30px 15px;
+}
+
+.single-client h2{
+    color: #08194a;
+    font-family: Bebas Neue;
+}
+
+.single-client h5{
+    color: #08194a;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.single-client h5 span{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(64, 142, 142);
+}
+
+
+/*--contact--*/
+
+.left-content{
+    background: #08194a;
+    padding: 60px;
+    color:#fff;
+
+}
+.left-content h3{
+    font-family: Bebas Neue;
+    margin-bottom: 20px;
+}
+
+label{
+    font-family: Bebas Neue;
+    font-size: 28px;
+    margin: 10px 0;
+}
+.contact button{
+    background: #08194a;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/*---footer---*/
+
+footer{
+    background: #08194a;
+    padding: 35px 0;
+    color: #fff;
+}
+
+.socials i{
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+/*--responsive--/
+@media screen and (min-width:768px) and (max-width:991px) {
+    .about-text{
+        margin: 20px 0;
+    }
+    .single-services{
+        margin-bottom: 30px;
+    }
+    .single-client{
+        margin-bottom: 35px;
+    }
+    .left-content{
+        margin-bottom: 30px;
+    }
+}
+
+@media  screen and (min-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 100px;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 10px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+*/
+
+
